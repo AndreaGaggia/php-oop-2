@@ -23,3 +23,38 @@
 .user p {
     margin: 0.5rem 0;
 }
+
+#articoli {
+    margin: 2rem;
+}
+
+.articolo {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+}
+
+.testo-articolo {
+    margin: 2rem;
+}
+
+.articolo .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+span.categoria {
+    font-size: 0.5rem;
+    text-transform: uppercase;
+    border: 1px solid #000;
+    border-radius: 0.3rem;
+    padding: 0.3rem 0.5rem;
+}
+
+.commento {
+    padding: 1rem;
+    background-color: white;
+}
