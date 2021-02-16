@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#users {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user {
+    padding: 0.5rem;
+    background-color: antiquewhite;
+    margin: 0.5rem;
+    flex: 0 0 200px;
+}
+
+.user span {
+    display: block;
+}
+
+.user p {
+    margin: 0.5rem 0;
+}
